@@ -1,7 +1,7 @@
-## 2021/09/30 add
+## 2021/09/29 add
 	git init
-	git add
-	git commit
+	git add @filename
+	git commit -m "comment"
 
 	git status
 	git diff
@@ -23,3 +23,11 @@
 	git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。
 
 	git rm -- test.txt
+
+## 2021/09/30 add
+	git remote add origin git@github.com:rwdong2021/gcbaas.git
+	git branch -M main
+	git push -u origin main
+
+	git remote -v
+	git remote rm origin
